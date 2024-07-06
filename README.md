@@ -1,8 +1,14 @@
-# Distill Gold From Massive Rres
+# Distill Gold From Massive Ores (BiLP)
 
-This is official implementation (preview version) of [**Distill Gold From Massive Ores: Efficient Dataset Distillation via Critical Samples Selection**](https://arxiv.org/abs/2305.18381). This is the very first work that systematically study the data redundancy in the dataset distillation. We propose multiple effective criteria for pruning, and we hope our observation, analysis and empirical results could provide deeper insight into the internal mechanism of dataset distillation and neural network training.
+This is official implementation (**preview** version) of **ECCV'24** paper: Distill Gold from Massive Ores: **Bi**-**L**evel Data **P**runing towards Efficient Dataset Distillation (**BiLP**). This work systematically study the data redundancy in the dataset distillation. We propose multiple effective criteria for pruning, and we hope our observation, analysis and empirical results could provide deeper insight into the internal mechanism of dataset distillation and neural network training.
 
 <p align="center"><img src='method.png' width=400></p>
+
+
+**Updates**:
+- [**2024-07**] BiLP is accepted to ECCV'24. The updated code and paper will come soon!
+- [**2023-11**] Release the preview code and [paper](https://arxiv.org/abs/2305.18381).
+
 
 ## Usage
 
@@ -74,20 +80,6 @@ If you find our work useful and inspiring, do not hesitate to cite:
   year={2023}
 }
 ```
-
-## To-do List
-
-This is currently the preview version of our work, taking DC/DSA/DM as an example. We will upload our code on other algorithms soon.
-
-- [x] DC/DSA/DM
-- [ ] MT
-- [ ] CAFE
-- [ ] LinBa
-- [ ] HaBa
-- [ ] FRePo
-- [ ] IDC
-- [ ] RFAD
-- [ ] IDM
 
 ## Acknowledgement
 As our method is applied across various dataset distillation algorithms, we sincerely thank all the colleagues for their dedicated contributions to the open-source community, including but not limited to:
